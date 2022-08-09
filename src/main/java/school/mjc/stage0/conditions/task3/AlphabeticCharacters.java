@@ -5,10 +5,10 @@ public class AlphabeticCharacters
     public void vowelDeterminer(char character) 
     {
         
-        if (symbol >= 'a' && symbol <='z' || symbol>='A' && symbol<='Z')
+        if (character >= 'a' && character <='z' || character>='A' && character<='Z')
            
       {
-         if(symbol=='a' || symbol=='e' || symbol=='o' || symbol=='i' || symbol=='u' )
+         if(character=='a' || character=='e' || character=='o' || character=='i' || character=='u' )
           {
               System.out.println("Vowel");
            }
